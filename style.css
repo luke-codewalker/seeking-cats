@@ -1,0 +1,13 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+canvas {
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+        z-index: -1;
+}
