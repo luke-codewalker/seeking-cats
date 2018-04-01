@@ -9,5 +9,23 @@ canvas {
     position: absolute;
     top: 0;
     left: 0;
-        z-index: -1;
+    z-index: -1;
+}
+
+.info {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1;
+
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    color: #333;
+    text-decoration: none;
+}
+
+.info:visited {
+    color: #333;
 }
